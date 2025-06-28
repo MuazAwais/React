@@ -1,9 +1,9 @@
 import { Route, Routes } from "react-router-dom"
-import Home from "./views/home"
+import Home from "./views/index"
 import About from "./views/about"
 import Services from "./views/services"
 import Testimonials from "./views/testimonials"
-import Fqs from "./views/fqs"
+import Faqs from "./views/faqs"
 import Layout from "./components/layout"
 
 
@@ -17,7 +17,7 @@ function App() {
         <Route path="/about" element={<About />} />
         <Route path="/services" element={<Services />} />
         <Route path="/testimonials" element={<Testimonials />} />
-        <Route path="/fqs" element={<Fqs />} />
+        <Route path="/faqs" element={<Faqs />} />
         <Route path="*" element={<div>404 Not Found</div>} />
       </Routes>
       </Layout>
