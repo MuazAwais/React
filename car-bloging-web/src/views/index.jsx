@@ -1,10 +1,17 @@
 import React from 'react'
-import Navbar from '../components/shared/navbar'
+import Mokeup from '../components/mokup/mokup.jsx'
+import Latest from '../components/latest/latest.jsx'
+import TrendingBlogs from '../components/trendingblogs/trendingBlogs.jsx'
+
 
 function Home() {
   return (
     <div>
-      <h1>Home</h1>
+      <Mokeup/>
+      <div className='max-w-[1280px] flex flex-wrap lg:flex-nowrap mx-auto '>
+      <Latest/>
+      <TrendingBlogs/>
+      </div>
     </div>
   )
 }
