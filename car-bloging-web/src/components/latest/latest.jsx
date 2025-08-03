@@ -5,7 +5,7 @@ function Latest() {
     const blog = blogs[0];
     const writer = Writers[0];
   return (
-    <div className="max-w-[682px] pt-[77px] pb-[36px] px-4 md:px-11 font-poppins">
+    <div className="max-w-[682px] pt-[77px] pb-[36px] px-4 md:px-11 font-poppins mx-auto lg:mx-0">
         <h3 className="text-[36px] font-bold font-poppins ">Latest</h3>
 
         <div key={blog} className="flex flex-col gap-4 my-6 px-7">
