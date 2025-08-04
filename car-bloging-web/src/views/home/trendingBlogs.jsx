@@ -1,8 +1,6 @@
 import { Link } from 'react-router-dom'
-import blogs from '../../assets/data/blogs'
 
-function TrendingBlogs() {
-    const blog = blogs.slice(0, 4);
+const TrendingBlogs = ({data}) => {
   return (
     <div className=' max-w-[483px] w-full pt-[77px] pb-[36px] mx-auto lg:mx-0 font-poppins'>
         <div className='flex justify-between items-center'>
@@ -10,7 +8,7 @@ function TrendingBlogs() {
             <Link to="/blogs" className='text-[16px] font-semibold'>See all</Link>
         </div>
         <div className='flex flex-col gap-4 my-6'>
-           {blog.map((blog) => (
+           {data?.slice(0,4).map((blog) => (
             <div key={blog.id} className='flex flex-col gap-2 odd:bg-[#FF6666] odd:text-white  p-4 rounded'>
                     <div className='flex gap-2 my-4'>
                     <p>By</p>

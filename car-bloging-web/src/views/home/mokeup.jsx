@@ -1,6 +1,6 @@
 import { FiSend } from 'react-icons/fi'
 
-function Mokeup() {
+const Mokeup = () => {
   return (
     <div className=" max-w-[1280px] pt-[77px] pb-[36px] flex mx-auto text-white font-poppins bg-no-repeat bg-[#232536]" style={{ backgroundImage: `url(https://res.cloudinary.com/dv8dtipj1/image/upload/v1752998482/Group_9107_1_c3l1ty.svg)` }}>
       <div className="flex flex-col  bg-cover bg-center pl-3 md:pl-11">

@@ -1,5 +1,5 @@
 import React from "react";
-import categories from "../../assets/data/category/category";
+import categories from "../../lib/data/category/category";
 function AllCategory() {
   const category = categories.slice(0, 4);
   return (

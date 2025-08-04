@@ -1,6 +1,6 @@
 
-import Navbar from '../shared/navbar'
-import Footer from '../shared/footer'
+import Navbar from './navbar'
+import Footer from './footer'
 
 function Layout({children}) {
   return (
