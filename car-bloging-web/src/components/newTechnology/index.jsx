@@ -14,38 +14,33 @@ function NewTechnology() {
         </div>
         <p className="text-[16px] font-semibold">See all</p>
       </div>
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 border rounded-lg bg-[#D9D9D9] hover:bg-slate-200 transition-colors">
-        {blog.map((post) => (
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 ">
+        {blog.map((post, blogIndex) => (
           <div
-            key={post.id}
-            className="max-w-[280px] w-full p-4 "
+            key={blogIndex}
+            className="max-w-[280px] w-full p-4 border rounded-lg bg-[#D9D9D9] hover:bg-slate-200 transition-colors"
           >
             <div className="max-w-[248px] w-full object-cover mb-4 rounded-lg">
               <img src={post.img} alt={post.title} />
             </div>
             <h3 className="text-lg font-semibold">{post.title}</h3>
-          </div>
-        ))}
-        {writer.map((author) => (
-          <div
-            key={author.id}
-            className="flex items-center max-w-[280px] w-full px-4 gap-3"
-          >
-            <div className="object-cover rounded-lg">
-              <img src={author.avatar} alt={author.name} />
-            </div>
-            <div>
-              <h3 className="text-lg font-semibold">{author.name}</h3>
-              <div className="flex items-center">
-                <p className="text-[14px] text-gray-600">
-                  {new Date().toLocaleDateString()}
-                </p>
-                <span className="text-[24px] px-2 pb-3">.</span>
-                <p className="text-[12px] text-gray-500">
-                  Joined: {author.joinedDate}
-                </p>
-              </div>
-            </div>
+           {writer[blogIndex] && (
+             <div className="mt-8">
+               <div className="flex items-center">
+                 <img
+                   src={writer[blogIndex].avatar}
+                   alt={writer[blogIndex].name}
+                   className="w-8 h-8 rounded-full mr-2"
+                 />
+                 <div>
+                   <h4 className="text-md font-semibold">{writer[blogIndex].name}</h4>
+                   <p className="text-sm text-gray-600">
+                     Joined: {post.date}
+                   </p>
+                 </div>
+               </div>
+             </div>
+           )}
           </div>
         ))}
       </div>
