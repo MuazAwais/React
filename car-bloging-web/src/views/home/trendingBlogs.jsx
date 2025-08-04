@@ -9,14 +9,14 @@ const TrendingBlogs = ({data}) => {
         </div>
         <div className='flex flex-col gap-4 my-6'>
            {data?.slice(0,4).map((blog) => (
-            <div key={blog.id} className='flex flex-col gap-2 odd:bg-[#FF6666] odd:text-white  p-4 rounded'>
+            <div key={blog?.id} className='flex flex-col gap-2 odd:bg-[#FF6666] odd:text-white  p-4 rounded'>
                     <div className='flex gap-2 my-4'>
                     <p>By</p>
-                    <p className='font-bold '>{blog.writer}</p> 
+                    <p className='font-bold '>{blog?.authorName}</p> 
                     <div className='border-l-2 border-black h-5'></div>
-                    <p className="text-[14px]">{blog.date}</p>
+                    <p className="text-[14px]">{blog?.date}</p>
                 </div>
-                <h4 className="text-[24px] font-semibold">{blog.title}</h4>
+                <h4 className="text-[24px] font-semibold">{blog?.title}</h4>
             </div>
            ))}
         </div>
