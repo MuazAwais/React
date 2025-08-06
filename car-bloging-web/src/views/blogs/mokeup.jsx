@@ -12,10 +12,10 @@ const Mokeup = () => {
          </button>
       </div>
       <div className="flex justify-center items-center">
-        <img src="https://res.cloudinary.com/dv8dtipj1/image/upload/v1752951749/Rectangle_12_vx8paw.svg" alt="mokeup" className='w-[300px] absolute left-[55%] top-[15%] z-0 sm:w-[400px] md:w-[500px] lg:w-[600px] xl:w-[180px]' />
-        <img src="https://res.cloudinary.com/dv8dtipj1/image/upload/v1752951772/Rectangle_13_ydc716.svg" alt="mokeup" className='w-[300px] absolute left-[62%] top-[47%] z-1 sm:w-[400px] md:w-[500px] lg:w-[600px] xl:w-[180px]' />
-        <img src="https://res.cloudinary.com/dv8dtipj1/image/upload/v1752951760/Rectangle_15_ibshhq.svg" alt="mokeup" className='w-[300px] absolute left-[78%] top-[23%] z-2 sm:w-[400px] md:w-[500px] lg:w-[600px] xl:w-[180px]' />
-        <img src="https://res.cloudinary.com/dv8dtipj1/image/upload/v1752951750/Rectangle_14_tnspua.svg" alt="mokeup" className='w-[300px] absolute left-[70%] top-[10%] z-5 sm:w-[400px] md:w-[500px] lg:w-[600px] xl:w-[180px]' />
+        <img src="https://res.cloudinary.com/dv8dtipj1/image/upload/v1752951749/Rectangle_12_vx8paw.svg" alt="mokeup" className='hidden absolute left-[55%] top-[15%] z-0 lg:block lg:w-[180px] xl:w-[180px]' />
+        <img src="https://res.cloudinary.com/dv8dtipj1/image/upload/v1752951772/Rectangle_13_ydc716.svg" alt="mokeup" className='hidden absolute left-[62%] top-[47%] z-1 lg:block lg:w-[180px] xl:w-[180px]' />
+        <img src="https://res.cloudinary.com/dv8dtipj1/image/upload/v1752951760/Rectangle_15_ibshhq.svg" alt="mokeup" className='hidden absolute left-[78%] top-[23%] z-2 lg:block lg:w-[180px] xl:w-[180px]' />
+        <img src="https://res.cloudinary.com/dv8dtipj1/image/upload/v1752951750/Rectangle_14_tnspua.svg" alt="mokeup" className='hidden absolute left-[70%] top-[10%] z-5 lg:block lg:w-[180px] xl:w-[180px]' />
       </div>
     </div>
   )
