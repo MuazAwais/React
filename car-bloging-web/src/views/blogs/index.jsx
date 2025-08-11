@@ -1,12 +1,14 @@
 import Mokeup from "./mokeup"
+import { Blogs } from "../../lib/data"
+import NewArticle from "../../components/shared/newArticle"
 
-
-const Blogs = () => {
+const BlogsPage = () => {
   return (
     <div>
       <Mokeup />
+      <NewArticle data={Blogs} />
     </div>
   )
 }
 
-export default Blogs
+export default BlogsPage
