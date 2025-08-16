@@ -49,16 +49,16 @@ const ContactForm = () => {
             <input
               type="text"
               placeholder="Your Name"
-              className="p-2 mb-4 border border-gray-300 rounded"
+              className="p-2 mb-4 border-b border-gray-300 rounded"
             />
             <input
               type="email"
               placeholder="Your Email"
-              className="p-2 mb-4 border border-gray-300 rounded"
+              className="p-2 mb-4 border-b border-gray-300 rounded"
             />
             <textarea
               placeholder="Your Message"
-              className="p-2 mb-4 border border-gray-300 rounded"
+              className="p-2 mb-4 border-b border-gray-300 rounded"
               rows="4"
             ></textarea>
             <button
