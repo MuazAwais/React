@@ -3,8 +3,8 @@ import { FaArrowLeft, FaArrowRight } from "react-icons/fa6";
 
 function Testimonials() {
   return (
-    <div className="max-w-[1280px] mx-auto my-10 py-10 bg-[#232536] font-poppins flex ">
-      <div className="flex flex-col md:flex-row lg:mx-[150px] flex-wrap lg:flex-nowrap items-center justify-between mx-auto gap-4">
+    <div className=" bg-[#232536] font-poppins">
+      <div className="max-w-[1280px] mx-auto my-10 py-10 flex flex-col md:flex-row flex-wrap lg:flex-nowrap items-center justify-between gap-4">
         {/* Testimonial section */}
         <div className="max-w-[321px] flex flex-col justify-center mx-auto py-16 lg:mr-16 gap-y-4">
           <h3 className=" text-white uppercase text-[16px] tracking-[0.2em]">

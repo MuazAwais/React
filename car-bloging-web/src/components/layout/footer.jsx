@@ -34,16 +34,16 @@ function Footer() {
             </ul>
           </div>
         </div>
-        <div className="flex-wrap  md:flex lg:flex-nowrap gap-4 items-center justify-between mx-3 sm:mx-12 px-10 py-20 bg-[#ffffff1e] rounded ">
-          <p className="text-[18px] font-bold leading-5  md:leading-8 my-2 sm:text-[23px]  md:text-[24px] lg:text-[27px]">
+        <div className="flex-wrap  md:flex lg:flex-nowrap items-center justify-between mx-3 sm:mx-12 px-10 py-20 bg-[#ffffff1e] rounded ">
+          <p className="text-[18px] font-bold leading-5  md:leading-8 my-2 sm:text-[23px]  md:text-[24px] lg:max-w-[500px] lg:text-[27px]">
             Subscribe to our news letter to get latest updates and news
           </p>
           <input
             type="email"
             placeholder="example@email.com"
-            className="bg-white text-[#232536] py-[17.5px] px-4 rounded max-w-[230px] md:max-w-96 my-2"
+            className="bg-white text-[#232536] py-[17.5px] px-9 rounded max-w-[230px] md:max-w-[380px] my-2"
           />
-          <button className="bg-[#ff5959] text-[#f0f0f0] my-2 py-[18px] mx-auto flex px-8 font-bold rounded hover:border-collapse hover:bg-[#f0f0f0] hover:text-black">
+          <button className="bg-[#ff5959] text-[#f0f0f0] my-2 py-[18px] flex px-8 font-bold rounded hover:border-collapse hover:bg-[#f0f0f0] hover:text-black">
             Subscribe <FiSend />
           </button>
         </div>
