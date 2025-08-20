@@ -9,6 +9,15 @@ export default {
 		 fontFamily: {
         poppins: ['Poppins', 'sans-serif'],
       },
+       animation: {
+          'slide-in-left': 'slideInFromLeft 1s ',
+        },
+      keyframes: {
+          slideInFromLeft: {
+            '0%': { transform: 'translateX(-100%)' },
+            '100%': { transform: 'translateX(0)' },
+          },
+        },
 	},
   },
   plugins: [],
