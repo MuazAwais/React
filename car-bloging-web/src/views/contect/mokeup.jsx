@@ -25,12 +25,16 @@ const Mokeup = ({ data }) => {
           return (
             <SwiperSlide
               key={page?.id}
-              className="max-w-[1280px] mx-auto bg-cover bg-center font-poppins"
+              className="bg-cover bg-center font-poppins"
               style={{ backgroundImage: `url(${page?.img})` }}
             >
-              <h2 className="font-bold text-[25px] md:text-[50px] max-w-[450px] mx-[90px] my-[150px] text-white ">
-                {page?.title}
-              </h2>
+              <div className=" bg-black bg-opacity-50 p-4">
+                <div className="max-w-[1280px] mx-auto">
+                  <h2 className="font-bold text-[25px] sm:text-[40px] md:text-[50px] max-w-[450px] mx-[90px] my-[150px] text-white ">
+                    {page?.title}
+                  </h2>
+                </div>
+              </div>
             </SwiperSlide>
           );
         })}

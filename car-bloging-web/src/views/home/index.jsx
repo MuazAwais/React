@@ -11,7 +11,7 @@ const Home = () => {
   return (
     <div>
       <Mokeup/>
-      <div className='max-w-[1280px] flex flex-wrap lg:flex-nowrap mx-auto '>
+      <div className='max-w-[1280px] grid lg:grid-cols-2 mx-auto gap-4 px-4'>
       <Latest data={Blogs}/>
       <TrendingBlogs data={Blogs}/>
       </div>

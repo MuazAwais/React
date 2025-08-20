@@ -9,13 +9,13 @@ const Mokeup = () => {
       }}
     >
       <div className=" max-w-[1280px] pt-[77px] pb-[36px] flex mx-auto text-white font-poppins">
-        <div className="flex flex-col  bg-cover bg-center pl-3 md:pl-11">
-          <h2 className="font-bold text-[50px] leading-[1.2]  sm:text-[70px]">
+        <div className="flex flex-col gap-4 bg-cover bg-center pl-3 md:pl-11">
+          <h2 className="font-bold text-[44px] leading-[1.2]  sm:text-[50px] md:text-[58px] lg:text-[66px] xl:text-[70px]">
             Your Journey <br />
             Your Car <br />
             Your Way
           </h2>
-          <p className="py-5 px-2 text-[14px] sm:text-[16px] leading-snug max-w-[400px]  sm:max-w-[650px]  text-justify">
+          <p className="text-[12px] sm:text-[14px] md:text-[16px] leading-snug max-w-[400px] sm:max-w-[550px] md:max-w-[600px]">
             Lorem ipsum dolor sit amet consectetur. Diam volutpat morbi
             elementum vel euismod aliquam. Amet ultrices neque augue consectetur
             purus phasellus. Ullamcorper lorem montes varius amet vestibulum
